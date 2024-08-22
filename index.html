@@ -1,11 +1,61 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" data-theme="light">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- tailwind and daisyUI CDN -->
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.10/dist/full.min.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- font awesome CDN -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
     <title>Architect portfolio using tailwind</title>
+    <!-- font manrope -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap" rel="stylesheet">
+    <style>
+        .manrope-font {
+            font-family: "Manrope";
+        }
+    </style>
 </head>
-<body>
-    
+
+<body class="manrope-font">
+    <div class="bg-gradient-to-b  to-white from-gray-100">
+        <header class="w-11/12 h-[100px] mx-auto"> 
+            <nav>
+                <div class="navbar">
+                    <div class="navbar-start">
+                        <div class="flex justify-between space-x-2">
+                            <h6><i class="-rotate-45 bg-green-400 rounded-full p-1 fa-solid fa-arrow-right-long"></i></h6>
+                            <h6><a class="text-2xl font-extrabold">Rinterio</a></h6>
+                        </div>
+                    </div>
+                    <div class="navbar-center hidden lg:flex">
+                        <ul class="menu menu-horizontal px-1">
+                            <li class="hover:font-bold"><a>Home</a></li>
+                            <li class="hover:font-bold"><a>Services</a></li>
+                            <li class="hover:font-bold"><a>portfolio</a></li>
+                            <li class="hover:font-bold"><a>Blogs</a></li>
+                            <li class="hover:font-bold"><a>Contact Us</a></li>
+                        </ul>
+                    </div>
+                    <div class="navbar-end space-x-4  lg:flex hidden">
+                        <i class="bg-white rounded-full p-2 fa-solid fa-magnifying-glass"></i>
+                        <i class="bg-white rounded-full p-2 fa-solid fa-cart-shopping"></i>
+                        <a class="btn bg-green-400 rounded-3xl font-bold flex justify-between">
+                            <h6>Book Consult</h6>
+                            <h6><i class="-rotate-45 bg-slate-900 text-white rounded-full p-1 fa-solid fa-arrow-right-long"></i></h6>
+                        </a>
+                    </div>
+                    <i class="bg-white rounded-full p-3 fa-solid fa-bars lg:hidden absolute right-6"></i>
+                </div>
+            </nav>
+        </header>
+    </div>
+    <main></main>
+    <footer></footer>
 </body>
+
 </html>
