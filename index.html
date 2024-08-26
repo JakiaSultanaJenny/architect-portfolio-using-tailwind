@@ -315,24 +315,24 @@
                     <p class="text-center lg:w-2/3 mx-auto p-6">The barn house captivates with its blend of rustic charm and
                         modern sophistication, featuring weathered wood, sleek metal accents.</p>
                 </div>
-                <div class="grid grid-cols-2 grid-cols-1 gap-6">
+                <div class="lg:grid lg:grid-cols-2 gap-6">
                     <!-- form -->
-                     <div>
+                     <div class="lg:m-0 m-4">
                         <input class=" border-none outline-none w-full p-4  bg-white rounded-3xl " type="text" placeholder="First Name*">
                      </div>
-                     <div>
+                     <div class="lg:m-0 m-4">
                         <input class="border-none outline-none w-full p-4  bg-white rounded-3xl " type="text" placeholder="Last Name*">
                      </div>                     
-                     <div>
+                     <div class="lg:m-0 m-4">
                         <input class=" p-4  bg-white rounded-3xl w-full " type="text" placeholder="Phone Number* ">
                      </div>                    
-                     <div>
+                     <div class="lg:m-0 m-4">
                         <input class=" border-none outline-none w-full p-4  bg-white rounded-3xl " type="text" placeholder="Email Address*">
                      </div>                    
-                     <div class="col-span-2">
-                        <textarea name="" id="" class="w-full  h-[180px] p-4 border-none outline-none resize-none bg-white rounded-3xl" placeholder="Write your message here"></textarea>
+                     <div class="col-span-2 lg:m-0 m-4">
+                        <textarea name="" id="" class="w-full  h-[220px] p-4 border-none outline-none resize-none bg-white rounded-3xl" placeholder="Write your message here"></textarea>
                      </div>
-                     <div class="col-span-2 lg:flex justify-center items-center">
+                     <div class="col-span-2 lg:flex justify-center items-center lg:m-0 m-4">
                         <button
                             class="btn col-span-2 w-full px-6 bg-green-300 rounded-3xl font-bold lg:flex justify-center items-center">
                             <h6>Send Mail</h6>
@@ -347,7 +347,45 @@
         </section>
 
     </main>
-    <footer></footer>
+    <footer class="bg-slate-900 ">
+        <div class="lg:w-11/12 w-1/2 mx-auto">
+            <div class="flex flex-col">
+                <div class="flex justify-center items-center space-x-2 pt-6">
+                    <h6><i class="-rotate-45 bg-green-400 rounded-full p-1 fa-solid fa-arrow-right-long"></i>
+                    </h6>
+                    <h6><a class="text-2xl text-white font-extrabold">Rinterio</a></h6>
+                </div>
+                <p class="py-6 lg:w-1/2 mx-auto text-center text-zinc-400">
+                    The barn house captivates with its blend of rustic charm and modern sophistication,
+                    featuring weathered wood, and large windows that flood the space
+                    with natural light.
+                </p>
+
+                <div class="lg:w-2/3 w-1/2 text-center mx-auto">
+                    <ul class="px-3 lg:space-y-0 space-y-6 text-white lg:flex lg:flex-row flex-col justify-between">
+                        <li class="hover:font-bold"><a>Home</a></li>
+                        <li class="hover:font-bold"><a>Services</a></li>
+                        <li class="hover:font-bold"><a>portfolio</a></li>
+                        <li class="hover:font-bold"><a>Blogs</a></li>
+                        <li class="hover:font-bold"><a>Contact Us</a></li>
+                    </ul>
+                </div>
+                <div class="lg:flex justify-center items-center mt-6 mb-12">
+                    <button
+                        class="btn lg:w-auto w-full px-6  bg-green-500 text-black border-none rounded-3xl font-bold lg:flex justify-center items-center">
+                        <h6 class="text-2xl">Book Consult</h6>
+                        <h6><i
+                                class="-rotate-45 bg-black text-1xl text-white  rounded-full p-2 fa-solid fa-arrow-right-long"></i>
+                        </h6>
+                    </button>
+                </div>
+
+
+            </div>
+
+        </div>
+
+    </footer>
 </body>
 
 </html>
